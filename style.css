@@ -1,25 +1,33 @@
 body {
-  background-color: black;
-  background-image: url(images/Stars.png);
+  background-image: url(images/Stars.png), url(images/Flares.png), url(images/Gradient.png);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .wrapper-ofc {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  color: white;
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-  max-width: 800px;
+  max-width: 1024px;
   display: flex;
   min-height: 250px;
-  gap: 80px;
+  gap: 50px;
   color: white;
 }
 h1 {
   font-size: 48px;
   letter-spacing: 2px;
   font-weight: 600;
+}
+
+h3 {
+  font-size: 32px;
 }
 
 header>img {
@@ -44,4 +52,41 @@ header>img {
 a {
   text-decoration: none;
   color: white;
+}
+
+.summary {
+  padding-top: 100px;
+  max-width: 1024px;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.edu>h2::before {
+  content: url(images/school.png);
+  padding-right: 20px;
+}
+
+section {
+  display: flex;
+  max-width: 1024px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left>span {
+  color: #93ACF8;
+}
+
+h2 {
+ font-size: 40px;
+}
+
+h4 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 24px;
 }
