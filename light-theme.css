@@ -29,20 +29,6 @@ header {
   }
 }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 600px) {
-  h4 {
-    font-size: 22px;
-  }
-}
-
-
-
 h1 {
   font-size: 48px;
   letter-spacing: 2px;
@@ -118,11 +104,26 @@ h2 {
   font-size: 40px;
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
 h4 {
   font-size: 28px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
+@media (max-width: 600px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+
 
 span {
   font-size: 24px;
