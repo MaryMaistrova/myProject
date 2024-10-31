@@ -58,8 +58,8 @@ a {
 }
 
 body>main {
-  background: linear-gradient(#90b2e8, #000103)!important;
-} 
+  background: linear-gradient(#90b2e8, #000103) !important;
+}
 
 .summary {
   padding-top: 100px;
@@ -117,6 +117,11 @@ span {
   align-items: center;
 }
 
+.work>.left>span {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 main>h2::before {
   content: url(images/corporate_fare.png);
@@ -127,9 +132,66 @@ main>h2 {
   margin-top: 120px;
 }
 
-body > div > main > span:nth-child(5){
+body>div>main>span:nth-child(5) {
   display: flex;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
+.lang>h2 {
+  margin-top: 120px;
+}
+
+.lang>h2::before {
+  content: url(images/question_answer.png);
+  padding-right: 20px;
+}
+
+.lang>.left>span {
+  display: flex;
+  color: #93ACF8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lang>.left>h4 {
+  padding-top: 10px;
+}
+
+.top-part>h2 {
+  margin-top: 120px;
+}
+
+.top-part>h2::before {
+  content: url(images/draw.png);
+  padding-right: 20px;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-top: 110px;
+  border: 0.5px solid white;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  color: #93ACF8;
+  background-color: black;
+  transition: 300ms;
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: #93ACF8;
+  color: white;
+  background-color: gray;
+  transition: 300ms;
+}
+
+.port>hr {
+  margin-bottom: 50px;
+}
