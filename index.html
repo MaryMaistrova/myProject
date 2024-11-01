@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> CV Mariia Maistrova</title>
   <link rel="stylesheet" href="light-theme.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com" defer></script>
+
+
 </head>
 
 <body>
@@ -30,30 +34,6 @@
           <span>Kyiv</span>
         </div>
         <div class="contacts">
-          <div class="couple">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="16" fill="#3D6BF4" />
-              <path
-                d="M22.667 9.33334H9.33366C8.41699 9.33334 7.67533 10.0833 7.67533 11L7.66699 21C7.66699 21.9167 8.41699 22.6667 9.33366 22.6667H22.667C23.5837 22.6667 24.3337 21.9167 24.3337 21V11C24.3337 10.0833 23.5837 9.33334 22.667 9.33334ZM22.3337 12.875L16.442 16.5583C16.1753 16.725 15.8253 16.725 15.5587 16.5583L9.66699 12.875C9.45866 12.7417 9.33366 12.5167 9.33366 12.275C9.33366 11.7167 9.94199 11.3833 10.417 11.675L16.0003 15.1667L21.5837 11.675C22.0587 11.3833 22.667 11.7167 22.667 12.275C22.667 12.5167 22.542 12.7417 22.3337 12.875Z"
-                fill="white" />
-            </svg>
-            <a href="">Email</a>
-          </div>
-          <!-- add a tultip here or smth. where easy to copy -->
-          <div class="couple">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="16" cy="16" r="16" fill="#0A66C2" />
-              <path
-                d="M24.666 23.3334H21.3532V18.1363C21.3532 16.897 21.3311 15.3017 19.6303 15.3017C17.9048 15.3017 17.6408 16.6519 17.6408 18.0461V23.333H14.3281V12.6458H17.5083V14.1063H17.5529C18.2004 12.9972 19.4089 12.3323 20.6907 12.38C24.0483 12.38 24.6674 14.5924 24.6674 17.4706L24.666 23.3334Z"
-                fill="white" />
-              <path
-                d="M10.5898 11.1849C10.5896 11.1849 10.5895 11.1849 10.5894 11.1849C9.53481 11.1849 8.66699 10.3156 8.66699 9.25916C8.66699 8.20269 9.53481 7.33334 10.5894 7.33334C11.644 7.33334 12.5117 8.20249 12.5119 9.25876C12.5119 9.25886 12.5119 9.25896 12.5119 9.25916C12.5119 10.3154 11.6443 11.1848 10.5898 11.1849Z"
-                fill="white" />
-              <path d="M12.2459 23.3333H8.92969V12.6458H12.2459V23.3333Z" fill="white" />
-            </svg>
-            <a href="">LinkedIn</a>
-          </div>
-          <!-- create profile and add later -->
           <div class="couple">
             <svg width="32" height="32" viewBox="0 0 256 249" xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="xMinYMin meet">
@@ -110,6 +90,17 @@
     </header>
 
     <main>
+
+      <div class="relative">
+        <input type="text" id="copyText" value="maistrovamariia@gmail.com" 
+          readonly>
+        <button onclick="copyToClipboard()">
+          Copy Email
+        </button>
+      </div>
+
+      <p id="copyStatus"></p>
+
       <div class="summary">
         At the moment I am actively learning HTML, CSS and Java Script. I’m looking for a place to hone my skills in
         creating functional and user-friendly mobile apps and web pages.
@@ -154,7 +145,7 @@
         </div>
         <span>2020-2024</span>
       </div>
-      <span>Data compilation and analysis, team work, weekly and mothly made reports.</span>
+      <span>Data compilation and analysis, team work, weekly and monthly made reports.</span>
 
 
       <div class="lang">
@@ -175,6 +166,12 @@
         <hr>
 
       </div>
+
+
+
+
+
+
   </div>
   </main>
   </div>

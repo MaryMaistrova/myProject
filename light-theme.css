@@ -18,7 +18,7 @@ header {
   display: flex;
   min-height: 250px;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
   color: black;
 }
 
@@ -37,6 +37,7 @@ h1 {
 
 h3 {
   font-size: 32px;
+  margin-bottom: 40px;
 }
 
 header>img {
@@ -44,15 +45,16 @@ header>img {
 }
 
 .contacts {
-  max-width: 450px;
+  max-width: 500px;
   margin-top: 30px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 40px;
 }
 
 .couple {
-  width: 130px;
+  width: 200px;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -62,10 +64,45 @@ header>img {
 a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
+}
+
+.relative {
+  display: flex;
+  gap: 10px;
+  max-height: 70px;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#copyText {
+  padding: 10px;
+}
+
+.relative>button {
+  background-color: gray;
+  color: #ffffff;
+  transition: 300ms;
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+}
+
+p {
+  color: gray;
+}
+
+.relative>button:hover {
+  background-color: blue;
+  color: #ffffff;
+  transition: 300ms;
 }
 
 .summary {
   padding-top: 100px;
+  padding-bottom: 100px;
   max-width: 1024px;
   line-height: 32px;
   font-size: 24px;
@@ -95,9 +132,11 @@ section {
 }
 
 .left>span {
+  display: flex;
   color: #93ACF8;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  
 }
 
 h2 {
@@ -137,8 +176,8 @@ span {
 
 .work>.left>span {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
 }
 
 main>h2::before {
@@ -168,8 +207,8 @@ body>div>main>span:nth-child(5) {
 .lang>.left>span {
   display: flex;
   color: #93ACF8;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
 }
 
 .lang>.left>h4 {
@@ -191,8 +230,8 @@ body>div>main>span:nth-child(5) {
   align-items: center;
 }
 
-button {
-  margin-top: 110px;
+.top-part>button {
+  margin-top: 120px;
   border: 0.5px solid gray;
   border-radius: 15px;
   width: 200px;

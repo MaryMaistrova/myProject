@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Copy Button Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<div class="p-8 bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-md w-96">
+        <div class="relative">
+            <input 
+                type="text" 
+                id="copyText" 
+                value="This is the text to be copied" 
+                class="w-full p-2 border rounded mb-4"
+                readonly
+            >
+            <button 
+                onclick="copyToClipboard()" 
+                class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 transition"
+            >
+                Copy
+            </button>
+        </div>
+        <p id="copyStatus" class="text-sm text-gray-600 mt-2 h-5"></p>
+    </div>
+
+
+</div>
+</html>
