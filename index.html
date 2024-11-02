@@ -13,9 +13,6 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet">
 
-  <script src="https://cdn.tailwindcss.com" defer></script>
-
-
 </head>
 
 <body>
@@ -85,21 +82,21 @@
             </svg>
             <a href="@mighty_moo">Telegram</a>
           </div>
+
+          <div class="relative">
+            <input type="text" id="copyText" value="maistrovamariia@gmail.com" readonly>
+            <button onclick="copyToClipboard()">
+              Copy Email
+            </button>
+          </div>
+
+          <p id="copyStatus"></p>
+
         </div>
       </div>
     </header>
 
     <main>
-
-      <div class="relative">
-        <input type="text" id="copyText" value="maistrovamariia@gmail.com" 
-          readonly>
-        <button onclick="copyToClipboard()">
-          Copy Email
-        </button>
-      </div>
-
-      <p id="copyStatus"></p>
 
       <div class="summary">
         At the moment I am actively learning HTML, CSS and Java Script. I’m looking for a place to hone my skills in
