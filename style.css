@@ -79,6 +79,10 @@ a {
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#copyText:hover {
+  cursor: auto;
+}
+
 .relative>button {
   transition: 300ms;
   border: 0.5px solid;
