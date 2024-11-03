@@ -1,53 +1,44 @@
 body {
-  background-image: url(images/Stars.png), url(images/Flares.png), url(images/Gr\ light.png), linear-gradient(#f1e2be, #ffffff);
+  background-image: url(images/Stars.png), url(images/Flares.png), url(images/Gradient.png), linear-gradient(#343941, #000103);
 }
 
 .wrapper-ofc {
-  color: black;
-}
+    color: white;
+ }
 
 header {
-  color: black;
+  color: white;
 }
 
 a {
-  color: black;
+  color: white;
 }
-
+/* change color */
 #copyText {
-  background-color: #e3c8ca;
+  background-color: #282323;
 }
 
 .relative>button {
-  background-color: gray;
-  color: #ffffff;
-  border-color: gray;
+  background-color: rgb(248, 245, 245);
+  color: #180606;
+  border-color: rgb(243, 203, 203);
 }
 
 p {
-  color: gray;
+  color: rgb(90, 87, 87);
 }
 
-.relative>button:hover #copyText {
-  background-color: rgb(62, 62, 200);
-  color: #ffffff;
+.relative>button:hover {
+  background-color: rgb(170, 170, 240);
+  color: #382a2a;
   transition: 300ms;
 }
 
 .left>span {
-  display: flex;
   color: #93ACF8;
-  padding-top: 5px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
-@media (max-width: 600px) {
-  h4 {
-    font-size: 24px;
-  }
-}
-
-
 
 span {
   font-size: 24px;
@@ -61,8 +52,8 @@ span {
 
 .work>.left>span {
   display: flex;
-  padding-top: 5px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 main>h2::before {
@@ -92,8 +83,8 @@ body>div>main>span:nth-child(5) {
 .lang>.left>span {
   display: flex;
   color: #93ACF8;
-  padding-top: 5px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .lang>.left>h4 {
@@ -115,21 +106,21 @@ body>div>main>span:nth-child(5) {
   align-items: center;
 }
 
-.top-part>button {
+button {
   margin-top: 120px;
-  border: 0.5px solid gray;
+  border: 0.5px solid white;
   border-radius: 15px;
   width: 200px;
   height: 50px;
   color: #93ACF8;
-  background-color: white;
+  background-color: black;
   transition: 300ms;
 }
 
 button:hover {
   cursor: pointer;
   border-color: #93ACF8;
-  color: rgb(122, 19, 167);
+  color: white;
   background-color: gray;
   transition: 300ms;
 }

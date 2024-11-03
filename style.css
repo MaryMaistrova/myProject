@@ -1,5 +1,4 @@
 body {
-  background-image: url(images/Stars.png), url(images/Flares.png), url(images/Gradient.png), linear-gradient(#343941, #000103);
   background-size: cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -9,7 +8,6 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  color: white;
   font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,7 +17,13 @@ header {
   min-height: 250px;
   align-items: center;
   gap: 100px;
-  color: white;
+}
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 h1 {
@@ -45,7 +49,7 @@ header>img {
 }
 
 .couple {
-  width: 130px;
+  width: 200px;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -55,10 +59,37 @@ header>img {
 a {
   text-decoration: none;
   color: white;
+  font-size: 18px;
+}
+
+.relative {
+  display: flex;
+  gap: 10px;
+  max-height: 70px;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#copyText {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-family: "Inter", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.relative>button {
+  transition: 300ms;
+  border: 0.5px solid;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
 }
 
 .summary {
-  padding-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 100px;
   max-width: 1024px;
   line-height: 32px;
   font-size: 24px;
@@ -95,6 +126,12 @@ section {
 
 h2 {
   font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 32px;
+  }
 }
 
 h4 {
