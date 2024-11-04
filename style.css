@@ -32,6 +32,11 @@ header {
   gap: 20px;
 }
 
+#theme-toggler:not(:checked) + label>#dark,
+#theme-toggler:checked + label>#light {
+  display: none;
+}
+
 #light, #dark {
   font-size: 18px;
 }
