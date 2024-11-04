@@ -1,50 +1,54 @@
-body {
+body:has(input:checked) {
   background-image: url(images/Stars.png), url(images/Flares.png), url(images/Gradient.png), linear-gradient(#343941, #000103);
-}
 
-.wrapper-ofc {
+  .wrapper-ofc {
     color: white;
- }
+  }
 
-header {
-  color: white;
-}
+  header {
+    color: white;
+  }
 
-a {
-  color: white;
-}
-/* change color */
-#copyText {
-  box-shadow: 2px 2px 5px rgba(174, 173, 173, 0.3);
-  background-color: #282323;
-}
+  a {
+    color: white;
+  }
 
-.relative>button {
-  background-color: rgb(248, 245, 245);
-  color: #180606;
-  border-color: rgb(243, 203, 203);
-}
+  #copyText {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 200ms;
+  }
 
-p {
-  color: rgb(90, 87, 87);
-}
+  #copyText:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: 200ms;
+  }
 
-.relative>button:hover {
-  background-color: rgb(170, 170, 240);
-  color: #382a2a;
-  transition: 300ms;
-}
+  .relative>button {
+    background-color: rgb(248, 245, 245);
+    color: #180606;
+    border-color: rgb(243, 203, 203);
+  }
 
-.left>span {
-  color: #93ACF8;
-}
+  p {
+    color: rgb(90, 87, 87);
+  }
 
-.top-part>button {
-  border-color: white;
-  background-color: black;
-}
+  .relative>button:hover {
+    background-color: rgb(170, 170, 240);
+    color: #382a2a;
+    transition: 300ms;
+  }
 
-button:hover {
-  color: white;
-  background-color: gray;
+  .top-part>button {
+    border-color: white;
+    background-color: rgb(182, 181, 181);
+  }
+
+  .top-part>button:hover {
+    color: white;
+    background-color: gray;
+  }
 }

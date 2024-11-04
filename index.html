@@ -7,7 +7,7 @@
   <title> CV Mariia Maistrova</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="light-theme.css">
-  <!-- <link rel="stylesheet" href="dark-theme.css"> -->
+  <link rel="stylesheet" href="dark-theme.css">
   <script src="script.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,15 @@
 <body>
   <div class="wrapper-ofc">
     <header>
-      <img src="images/my-pic.jpg" width="200" height="200" alt="my_photo">
+
+      <div class="presentation">
+        <input type="checkbox" id="theme-toggler" hidden>
+        <label for="theme-toggler">
+          <span id="light">Switch to light theme</span>
+          <span id="dark">Switch to dark theme</span>
+        </label>
+        <img src="images/my-pic.jpg" width="200" height="200" alt="my_photo">
+      </div>
       <div class="info">
         <h1>Mariia Maistrova</h1>
         <h3>Frontend developer trainee</h3>

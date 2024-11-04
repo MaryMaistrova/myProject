@@ -17,6 +17,12 @@ a {
 #copyText {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   background-color: #cbc1c7;
+  transition: 200ms;
+}
+
+#copyText:hover {
+  transform: translateY(-5px);
+  transition: 200ms;
 }
 
 .relative>button {
@@ -36,16 +42,13 @@ p {
   transition: 300ms;
 }
 
-.left>span {
-  color: #93ACF8;
-}
 
 .top-part>button {
   border-color: gray;
   background-color: white;
 }
 
-button:hover {
+.top-part>button {
   color: rgb(122, 19, 167);
   background-color: gray;
 }
