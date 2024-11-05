@@ -3,15 +3,15 @@ body {
 }
 
 .wrapper-ofc {
-  color: black;
+  color: rgb(48, 47, 47);
 }
 
 header {
-  color: black;
+  color: rgb(48, 47, 47);
 }
 
 a {
-  color: black;
+  color: rgb(48, 47, 47);
 }
 
 #copyText {
@@ -36,12 +36,21 @@ p {
   color: gray;
 }
 
+.relative>p {
+  color: rgb(47, 198, 17);
+}
+
 .relative>button:hover {
   background-color: rgb(62, 62, 200);
   color: #ffffff;
   transition: 300ms;
 }
 
+.relative>button:active {
+  background-color: #cbc1c7;
+  color: rgb(48, 47, 47);
+  transition: 300ms;
+}
 
 .top-part>button {
   border-color: gray;
