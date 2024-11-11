@@ -44,7 +44,6 @@ p {
   color: #000000;
   transition: 300ms;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-
 }
 
 .relative>button:active {
@@ -53,16 +52,44 @@ p {
   transition: 300ms;
 }
 
+main>h2::before {
+  content: url(images/corporate_fare\ for\ light.png);
+}
+
+.edu>h2::before {
+  content: url(images/school\ for\ light.png);
+}
+
+.top-part>h2::before {
+  content: url(images/draw\ for\ light.png);
+}
+
+.lang>h2::before {
+  content: url(images/question_answer\ for\ light.png);
+}
+
 .top-part>button {
   border-color: gray;
   background-color: white;
 }
 
 .top-part>button {
-  color: rgb(122, 19, 167);
+  background-color: lightgray;
+  color: #000000;
+  transition: 300ms;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.top-part>button:hover {
   background-color: gray;
+  color: #ffffff;
+  border-color: gray;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .left>span, .lang>.left>span {
-  color: #91339d;
+  color: #540ad4;
+  padding-top: 0;
+  padding-bottom: 40px;
 }

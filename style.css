@@ -58,7 +58,7 @@ header {
 #light:hover,
 #dark:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 300ms;
 }
 
@@ -128,6 +128,7 @@ a {
   width: 120px;
   height: 50px;
   border: none 0px;
+  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -151,7 +152,6 @@ a {
 }
 
 .edu>h2::before {
-  content: url(images/school.png);
   padding-right: 20px;
 }
 
@@ -218,7 +218,6 @@ span {
 }
 
 main>h2::before {
-  content: url(images/corporate_fare.png);
   padding-right: 20px;
 }
 
@@ -259,7 +258,6 @@ body>div>main>span:nth-child(5) {
 }
 
 .top-part>h2::before {
-  content: url(images/draw.png);
   padding-right: 20px;
 }
 

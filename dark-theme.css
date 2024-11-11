@@ -55,6 +55,22 @@ body:has(input:checked) {
     transition: 300ms;
   }
 
+  main>h2::before {
+    content: url(images/corporate_fare.png);
+  }
+
+  .edu>h2::before {
+    content: url(images/school.png);
+  }
+
+  .top-part>h2::before {
+    content: url(images/draw.png);
+  }
+
+  .lang>h2::before {
+    content: url(images/question_answer.png);
+  }
+
   .top-part>button {
     border-color: white;
     background-color: rgb(182, 181, 181);
@@ -64,8 +80,10 @@ body:has(input:checked) {
     color: rgb(193, 190, 190);
     background-color: gray;
   }
-}
 
-.left>span, .lang>.left>span {
-  color: #93ACF8;
+  .left>span, .lang>.left>span  {
+    color: #93ACF8;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
 }
