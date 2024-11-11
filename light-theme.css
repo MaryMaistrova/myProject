@@ -10,6 +10,10 @@ header {
   color: rgb(48, 47, 47);
 }
 
+hr {
+  border: 1px solid grey;
+}
+
 a {
   color: rgb(48, 47, 47);
 }
@@ -20,12 +24,7 @@ a {
   transition: 200ms;
 }
 
-#copyText:hover {
-  transform: translateY(-5px);
-  transition: 200ms;
-}
-
-.relative>button {
+.relative>button:hover {
   background-color: gray;
   color: #ffffff;
   border-color: gray;
@@ -40,14 +39,16 @@ p {
   color: rgb(47, 198, 17);
 }
 
-.relative>button:hover {
-  background-color: rgb(62, 62, 200);
-  color: #ffffff;
+.relative>button {
+  background-color: #cbc1c7;
+  color: #000000;
   transition: 300ms;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
 }
 
 .relative>button:active {
-  background-color: #cbc1c7;
+  background-color: #d1cda3;
   color: rgb(48, 47, 47);
   transition: 300ms;
 }
@@ -60,4 +61,8 @@ p {
 .top-part>button {
   color: rgb(122, 19, 167);
   background-color: gray;
+}
+
+.left>span, .lang>.left>span {
+  color: #91339d;
 }
