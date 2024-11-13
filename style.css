@@ -58,7 +58,7 @@ header {
 #light:hover,
 #dark:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  color: rgb(90, 54, 232);
   transition: 300ms;
 }
 
@@ -75,6 +75,13 @@ h3 {
 
 .presentation>img {
   border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem rgb(189, 164, 169)) opacity(85%);
+  transition: 0.5s;
+}
+
+.presentation>img:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(189, 164, 169)) opacity(100%);
+  transition: 0.5s;
 }
 
 .contacts {

@@ -18,6 +18,21 @@ a {
   color: rgb(48, 47, 47);
 }
 
+#light:hover,
+#dark:hover {
+  color: rgb(90, 54, 232);
+}
+
+
+.contacts>.couple>a {
+  transition: 300ms;
+}
+
+.contacts>.couple>a:hover {
+  transition: 300ms;
+  color: rgb(90, 54, 232);
+}
+
 #copyText {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   background-color: #cbc1c7;

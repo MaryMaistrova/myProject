@@ -17,6 +17,20 @@ body:has(input:checked) {
     color: rgb(193, 190, 190);
   }
 
+  .contacts>.couple>a {
+    transition: 300ms;
+  }
+
+  #light:hover,
+  #dark:hover {
+    color: rgb(73, 73, 243);
+  }
+
+  .contacts>.couple>a:hover {
+    transition: 300ms;
+    color: rgb(73, 73, 243);
+  }
+
   #copyText {
     background-color: #3d3b60;
     color: rgb(193, 190, 190);
@@ -87,7 +101,8 @@ body:has(input:checked) {
     box-shadow: 3px 3px 5px rgb(84, 84, 84);
   }
 
-  .left>span, .lang>.left>span  {
+  .left>span,
+  .lang>.left>span {
     color: #93ACF8;
     padding-top: 0;
     padding-bottom: 40px;
