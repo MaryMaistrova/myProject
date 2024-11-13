@@ -125,7 +125,7 @@ a {
 .relative>button {
   transition: 300ms;
   border-radius: 15px;
-  width: 120px;
+  width: 100px;
   height: 50px;
   border: none 0px;
   font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
