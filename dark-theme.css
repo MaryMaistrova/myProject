@@ -18,21 +18,17 @@ body:has(input:checked) {
   }
 
   #copyText {
-    background-color: #4c4c4c;
+    background-color: #3d3b60;
     color: rgb(193, 190, 190);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: 200ms;
-  }
-
-  #copyText:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: 200ms;
+    box-shadow: 4px 4px 6px rgba(129, 128, 128, 0.3);
   }
 
   .relative>button {
-    background-color: rgb(248, 245, 245);
-    color: #180606;
+    background-color: #3d3b60;
+    color: rgb(193, 190, 190);
+    transition: 400ms;
+    box-shadow: 4px 4px 6px rgba(129, 128, 128, 0.3);
   }
 
   .relative>p {
@@ -44,9 +40,10 @@ body:has(input:checked) {
   }
 
   .relative>button:hover {
-    background-color: rgb(150, 150, 231);
+    background-color: rgb(193, 190, 190);
     color: #382a2a;
-    transition: 300ms;
+    transition: 400ms;
+    box-shadow: 4px 4px 6px rgba(31, 30, 30, 0.3);
   }
 
   .relative>button:active {
@@ -74,11 +71,20 @@ body:has(input:checked) {
   .top-part>button {
     border-color: white;
     background-color: rgb(182, 181, 181);
+    box-shadow: 3px 3px 5px #474747;
+    color: #474747;
   }
 
   .top-part>button:hover {
-    color: rgb(193, 190, 190);
-    background-color: gray;
+    color: #93ACF8;
+    background-color: rgb(84, 84, 84);
+    box-shadow: 3px 3px 5px #93ACF8;
+  }
+
+  .top-part>button:active {
+    color: rgb(84, 84, 84);
+    background-color: #93ACF8;
+    box-shadow: 3px 3px 5px rgb(84, 84, 84);
   }
 
   .left>span, .lang>.left>span  {
