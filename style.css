@@ -284,6 +284,12 @@ body>div>main>span:nth-child(5) {
   transition: 300ms;
 }
 
+@media (max-width: 600px) {
+  .top-part>button {
+    margin-top: 83px
+  }
+}
+
 button:hover {
   cursor: pointer;
   border-color: #93ACF8;
