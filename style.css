@@ -257,7 +257,7 @@ body>div>main>span:nth-child(5) {
 @media (max-width: 600px) {
   .langcontent {
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
   }
 }
 
