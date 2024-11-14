@@ -168,8 +168,8 @@ a {
 
 .edu>span {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 70px;
   max-width: 600px;
 }
 
@@ -247,6 +247,18 @@ body>div>main>span:nth-child(5) {
   display: flex;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.langcontent{
+  display: flex;
+  gap: 300px;
+}
+
+@media (max-width: 600px) {
+  .langcontent {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 .lang>h2::before {

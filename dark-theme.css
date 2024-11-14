@@ -102,7 +102,7 @@ body:has(input:checked) {
   }
 
   .left>span,
-  .lang>.left>span {
+  .lang>.left>span, .mid>span {
     color: #93ACF8;
     padding-top: 0;
     padding-bottom: 40px;
