@@ -32,10 +32,8 @@ body:has(input:checked) {
   }
 
   #copyText {
-    background-color: #3d3b60;
+    background-color: #494967;
     color: rgb(193, 190, 190);
-    transition: 200ms;
-    box-shadow: 4px 4px 6px rgba(129, 128, 128, 0.3);
   }
 
   .relative>button {
