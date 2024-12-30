@@ -62,7 +62,8 @@ body:has(input:checked) {
     box-shadow: 4px 4px 6px rgba(31, 30, 30, 0.3);
   }
 
-  .relative>button:active {
+  .relative>button:active,
+  .exp:active {
     background-color: #4c4c4c;
     color: rgb(193, 190, 190);
     transition: 300ms;
