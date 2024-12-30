@@ -2,6 +2,8 @@ body {
   transition: all 0.5s ease;
 }
 
+/* filter: invert(1); */
+
 body:has(input:checked) {
   background-image: url(images/Stars.png), url(images/Flares.png), linear-gradient(#343941, #000103);
 
@@ -36,7 +38,8 @@ body:has(input:checked) {
     color: rgb(193, 190, 190);
   }
 
-  .relative>button {
+  .relative>button,
+  .exp {
     background-color: #3d3b60;
     color: rgb(193, 190, 190);
     transition: 400ms;
@@ -51,7 +54,8 @@ body:has(input:checked) {
     color: rgb(90, 87, 87);
   }
 
-  .relative>button:hover {
+  .relative>button:hover,
+  .exp:hover {
     background-color: rgb(193, 190, 190);
     color: #382a2a;
     transition: 400ms;
@@ -100,7 +104,8 @@ body:has(input:checked) {
   }
 
   .left>span,
-  .lang>.left>span, .mid>span {
+  .lang>.left>span,
+  .mid>span {
     color: #93ACF8;
     padding-top: 0;
     padding-bottom: 40px;

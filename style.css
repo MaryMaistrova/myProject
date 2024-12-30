@@ -106,6 +106,16 @@ a {
   font-size: 18px;
 }
 
+.exp {
+  font-size: 14px;
+  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  border: none 0px;
+  width: 200px;
+  height: 50px;
+  transition: 300ms;
+}
+
 .relative {
   position: relative;
   display: flex;

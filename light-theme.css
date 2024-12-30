@@ -37,7 +37,8 @@ a {
   background-color: #c9cdda;
 }
 
-.relative>button:hover {
+.relative>button:hover,
+.exp:hover {
   background-color: gray;
   color: #ffffff;
   border-color: gray;
@@ -52,7 +53,8 @@ p {
   color: rgb(47, 198, 17);
 }
 
-.relative>button {
+.relative>button,
+.exp {
   background-color: #cbc1c7;
   color: #000000;
   transition: 300ms;
@@ -109,7 +111,9 @@ main>h2::before {
   box-shadow: 3px 3px 3px rgb(179, 177, 177);
 }
 
-.left>span, .lang>.left>span, .mid>span {
+.left>span,
+.lang>.left>span,
+.mid>span {
   color: #540ad4;
   padding-top: 0;
   padding-bottom: 40px;

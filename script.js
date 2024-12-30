@@ -15,3 +15,9 @@ function copyToClipboard() {
       statusElement.classList.add('text-red-600');
   });
 }
+
+const downloadBtn = document.querySelector('.exp')
+
+downloadBtn.addEventListener('click', () => {
+    print()
+})
